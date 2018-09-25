@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Web layout </title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            margin: 0px;
+        }
+
+        #main {
+            height: auto;
+            width: auto;
+            background-color: cyan;
+        }
+
+        #head {
+            width: 1370px;
+            height: 120px;
+            background-color: maroon;
+            border: 1px solid black;
+        }
+
+        .logo {
+            height: 120px;
+            width: 200px;
+            background-color: orange;
+            border: 1px solid black;
+        }
+
+        .leftad {
+            height: 500px;
+            width: 200px;
+            background-color: blueviolet;
+            border: 1px solid black;
+        }
+
+        .rightad {
+            height: 500px;
+            width: 200px;
+            background-color: darkolivegreen;
+            position: absolute;
+            right: 0;
+            top: 122px;
+            border: 1px solid black;
+        }
+
+        .mleft {
+            height: 250px;
+            width: 485px;
+            background-color: red;
+            position: absolute;
+            margin: auto;
+            left: 200px;
+            top: 120px;
+            border: 1px solid black;
+        }
+
+        .mright {
+            height: 250px;
+            width: 485px;
+            background-color: yellow;
+            position: absolute;
+            margin: auto;
+            right: 200px;
+            top: 120px;
+            border: 1px solid black;
+
+        }
+
+        .lbottom {
+            height: 250px;
+            width: 485px;
+            background-color: magenta;
+            position: absolute;
+            margin: auto;
+            left: 200px;
+            bottom: 16px;
+            border: 1px solid black;
+        }
+
+        .rbottom {
+            height: 250px;
+            width: 485px;
+            background-color: purple;
+            position: absolute;
+            margin: auto;
+            right: 200px;
+            bottom: 16px;
+            border: 1px solid black;
+        }
+
+        #footer {
+            width: 1370px;
+            height: 80px;
+            background-color: chartreuse;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="head">
+            <div class="logo"></div>
+        </div>
+        <div id="middle">
+            <div class="leftad"></div>
+            <div class="mleft"></div>
+            <div class="mright"></div>
+            <div class="lbottom"></div>
+            <div class="rbottom"></div>
+            <div class="rightad"></div>
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+
+</html>
