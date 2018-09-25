@@ -13,20 +13,66 @@
             width: 100%;
             margin: 0px;
         }
-
+        
         #main {
             height: 100%;
             width: 100%;
-
+            background-color: aliceblue;
         }
-
+        
         .head {
             height: 70px;
             width: 100%;
-            background-color:deepskyblue1;
+            background-color: cornflowerblue;
             font-family: verdana;
             font-weight: 500;
             color: white;
+        }
+        
+        .tab {
+            padding-top: 20px;
+            opacity: 0.7;
+        }
+        
+        .tab:hover {
+            opacity: 1;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+        
+        .contact {
+            height: 100px;
+            width: 500px;
+            background-color: white;;
+            margin-top: 50px;
+            margin-left: 400px;
+        }
+        
+        .subc {
+            height: 80px;
+            width: 80px;
+            background-color: red;
+            margin-left: 10px;
+        }
+        
+        .name {
+            height: 50px;
+            width: 300px;
+            font-family: verdana;
+            padding-left: 40px;
+            padding-bottom: 25px;
+        }
+        
+        .like {
+            height: 30px;
+            width: 30px;
+            background-image:url(image/smallheart.png);
+            margin-bottom: 40px;
+        }
+        .like:hover{
+            background-image: url(image/smallred.png);
+             background-repeat: no-repeat;
+            
         }
     </style>
 </head>
@@ -34,20 +80,69 @@
 <body>
     <div id="main">
         <div class="head">
-            <table style="padding-top: 30px; ">
+            <table cellspacing="18px">
                 <tr>
-                    <td>CONTACT</td>
-                    <td>RECENT</td>
-                    <td>SPEED DIAL</td>
+                    <td class="tab">CONTACT</td>
+                    <td class="tab">RECENT</td>
+                    <td class="tab">SPEED DIAL</td>
                 </tr>
             </table>
-
         </div>
-
-
+        <div class="contact">
+            <table height="100%" width="100%">
+                <tr>
+                    <td>
+                        <div class="subc"> <img src="image/contact.png" /> </div>
+                    </td>
+                    <td>
+                        <div class="name">
+                            <h4>Sandip Gaitonde</h4>
+                            <label style="color: blue;">+919856231456</label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="like"></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="contact">
+            <table height="100%" width="100%">
+                <tr>
+                    <td>
+                        <div class="subc"><img src="image/contact.png" /></div>
+                    </td>
+                    <td>
+                        <div class="name">
+                            <h4>Sandip Gaitonde</h4>
+                            <label style="color: blue;">+919856231456</label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="like"></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="contact">
+            <table height="100%" width="100%">
+                <tr>
+                    <td>
+                        <div class="subc"><img src="image/contact.png" /></div>
+                    </td>
+                    <td>
+                        <div class="name">
+                            <h4>Sandip Gaitonde</h4>
+                            <label style="color: blue;">+919856231456</label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="like"></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </div>
-
 </body>
 
 </html>
- 
