@@ -13,56 +13,70 @@
             height: 100%;
             margin: 0;
         }
-      
+
+        #main {
+            height: 656px;
+            width: 1366px;
+
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+
+        }
+
         .topLeft {
             width: 200px;
             height: 200px;
             background-color: red;
             position: absolute;
-	margin:auto;
-	right:0;
-	left:0;
-	top:31px;
+            margin: auto;
+            right: 0;
+            left: 0;
+            top: 31px;
         }
+
         .lmiddle {
             width: 200px;
             height: 200px;
             background-color: pink;
             position: absolute;
-	margin:auto;
-	top:0;
-	bottom:0;
-	left:383px;
-          
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            left: 383px;
+
         }
+
         .bottomLeft {
             position: absolute;
             width: 200px;
             height: 200px;
             background-color: yellow;
             bottom: 31px;
-           margin:auto;
-	right:0;
-	left:0;
-	
+            margin: auto;
+            right: 0;
+            left: 0;
+
         }
-        .rmiddle
-        {
+
+        .rmiddle {
             position: absolute;
-            margin:auto;
+            margin: auto;
             width: 200px;
             height: 200px;
             background-color: blue;
             right: 383px;
-	top:0;
-	bottom:0;
+            top: 0;
+            bottom: 0;
         }
-        
-        .center
-        {
+
+        .center {
             width: 200px;
             height: 200px;
-           background-color:green;
+            background-color: green;
             margin: auto;
             top: 0;
             bottom: 0;
@@ -70,62 +84,68 @@
             right: 0;
             position: absolute;
         }
-	.Rbotto{
-	height:80px;
-	width:80px;
-	background-color:orange;
-	position:absolute;	
-	right:0;
-	bottom:0;
-	}
-	.Mleft{
-	height:80px;
-	width:80px;
-	background-color:maroon;
-	position:absolute;	
-	
-	}
-	.mright{
-	height:80px;
-	width:80px;
-	background-color:cyan;
-	position:absolute;	
-	bottom:0;
-	}
-     .Bleft{
-	height:80px;
-	width:80px;
-	background-color:grey;
-	position:absolute;	
-	}
+
+        .Rbotto {
+            height: 80px;
+            width: 80px;
+            background-color: orange;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+
+        .Mleft {
+            height: 80px;
+            width: 80px;
+            background-color: maroon;
+            position: absolute;
+
+        }
+
+        .mright {
+            height: 80px;
+            width: 80px;
+            background-color: cyan;
+            position: absolute;
+            bottom: 0;
+        }
+
+        .Bleft {
+            height: 80px;
+            width: 80px;
+            background-color: grey;
+            position: absolute;
+        }
+
     </style>
 </head>
 
 <body>
+    <div id="main">
 
+        <div class="topLeft">
+            <div class="Rbotto"></div>
 
-    <div class="topLeft">
-	<div class="Rbotto"></div>
-	
-	</div>
-    <div class="bottomLeft">
-	<div class="Bleft"></div>
-	
-	</div>
+        </div>
+        <div class="bottomLeft">
+            <div class="Bleft"></div>
+
+        </div>
+
+        <div class="center"></div>
+        <div class="lmiddle">
+            <div class="Mleft"></div>
+
+        </div>
+        <div class="rmiddle">
+            <div class="mright"></div>
+
+        </div>
     </div>
-    <div class="center"></div>
-  <div class="lmiddle">
-	<div class="Mleft"></div>
-	
-	</div>
-<div class="rmiddle">
-<div class="mright"></div>
-	
-	</div>
-</div>
-	
 
-	</div>
+
+
+
 
 </body>
 

@@ -7,10 +7,26 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> Chesss </title>
     <style type="text/css">
+        html,body{
+            height: 100%;
+            width: 100%;
+            margin: 0px;
+        }
+        #main{
+             height: 656px;
+            width: 1366px;
+            background-color: antiquewhite;
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+        }
         .black {
             float: left;
-            width: 80px;
-            height: 80px;
+            width: 68.75px;
+            height: 68.75px;
             background-color: #999;
             font-size: 50px;
             text-align: center;
@@ -20,8 +36,8 @@
         
         .white {
             float: left;
-            width: 80px;
-            height: 80px;
+            width: 68.75px;
+            height: 68.75px;
             background-color: #fff;
             font-size: 50px;
             text-align: center;
@@ -30,15 +46,21 @@
         }
         
         .chessboard {
-            width: 640px;
-            height: 640px;
+            width: 550px;
+            height: 550px;
             margin: 20px;
             border: 25px solid #333;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
         }
     </style>
 </head>
 
-<body><center>
+<body><div id="main">
     <div class="chessboard">
         <!-- 1st -->
         <div class="white">&#9820;</div>
@@ -112,7 +134,7 @@
         <div class="white">&#9815;</div>
         <div class="black">&#9816;</div>
         <div class="white">&#9814;</div>
-    </div></center>
+    </div></div>
 </body>
 
 </html>
